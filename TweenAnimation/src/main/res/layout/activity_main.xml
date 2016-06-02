@@ -14,31 +14,54 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="translation1"
-            android:text="平移" />
+            android:text="平移1" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="平移" />
+            android:onClick="translation2"
+            android:text="平移2" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="平移" />
+            android:onClick="scale1"
+            android:text="缩放1" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="平移" />
+            android:onClick="scale2"
+            android:text="缩放2" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="alpha"
+            android:text="渐变" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="rotate"
+            android:text="旋转" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="平移" />
+            android:onClick="playAll"
+            android:text="一起飞" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playAllByXml"
+            android:text="一起飞（xml）" />
     </LinearLayout>
     <ImageView
         android:id="@+id/imageView"
